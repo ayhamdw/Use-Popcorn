@@ -34,7 +34,6 @@ body {
   gap: 2rem;
 }
 
-/* Navbar */
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -81,7 +80,6 @@ body {
   text-align: right;
 }
 
-/* Main Layout */
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +102,6 @@ body {
   transform: translateY(-6px);
 }
 
-/* Buttons */
 .btn-add,
 .btn-delete,
 .btn-toggle,
@@ -166,7 +163,6 @@ body {
   cursor: pointer;
 }
 
-/* List */
 .list {
   list-style: none;
   margin-top: 1.6rem;
@@ -193,7 +189,6 @@ body {
   border-radius: var(--radius);
 }
 
-/* Summary */
 .summary {
   background-color: var(--color-background-100);
   padding: 2rem;
@@ -215,7 +210,6 @@ body {
   font-weight: 600;
 }
 
-/* Details */
 .details {
   font-size: 1.4rem;
   line-height: 1.5;
@@ -258,7 +252,6 @@ body {
   gap: 0.8rem;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
